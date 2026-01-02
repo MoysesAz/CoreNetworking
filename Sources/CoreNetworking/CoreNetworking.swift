@@ -3,7 +3,7 @@
 
 import Foundation
 
-public final class NetworkingLayer {
+public final class CoreNetworking {
     public let urlProtocol: String = "https"
     public let domain: String
     public let networkErrorHandler: NetworkErrorHandlingProtocol

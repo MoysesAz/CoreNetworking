@@ -1,22 +1,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetworkingLayer",
+    name: "CoreNetworking",
     platforms: [
         .iOS(.v15),
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "NetworkingLayer",
-            targets: ["NetworkingLayer"]
+            name: "CoreNetworking",
+            targets: ["CoreNetworking"]
         ),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "NetworkingLayer",
+            name: "CoreNetworking",
             dependencies: []
         ),
     ]
