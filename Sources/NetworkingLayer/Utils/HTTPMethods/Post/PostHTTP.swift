@@ -17,7 +17,6 @@ public final class PostHTTP: PostHttpProtocol {
         self.session = session
     }
 
-    @available(macOS 12.0, *)
     public func handle(
         endpoint: String,
         headers: [String : String] = [:],

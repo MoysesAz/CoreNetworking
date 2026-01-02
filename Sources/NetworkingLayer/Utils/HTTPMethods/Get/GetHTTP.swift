@@ -14,7 +14,6 @@ public final class GetHTTP: GetHttpProtocol {
         self.session = session
     }
     
-    @available(macOS 12.0, *)
     public func handle(endpoint: String,
                        headers: [String: String] = [:],
                        parameters: [String: Any]? = nil) async throws -> HTTPResponseModel {

@@ -3,7 +3,6 @@
 
 import Foundation
 
-@available(macOS 12.0, *)
 public final class NetworkingLayer {
     public let urlProtocol: String = "https"
     public let domain: String

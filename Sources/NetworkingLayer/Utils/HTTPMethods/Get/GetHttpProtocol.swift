@@ -8,7 +8,6 @@
 import Foundation
 
 public protocol GetHttpProtocol {
-    @available(macOS 12.0, *)
     func handle(endpoint: String,
                 headers: [String: String],
                 parameters: [String: Any]?) async throws -> HTTPResponseModel

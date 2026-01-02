@@ -9,7 +9,6 @@
 import Foundation
 
 public protocol PostHttpProtocol {
-    @available(macOS 12.0, *)
     func handle(
         endpoint: String,
         headers: [String: String],
